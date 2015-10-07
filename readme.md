@@ -23,3 +23,4 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 ## Installing Additional Library
 
 > install jessengers (if not installed)
+> [jessengers git](https://github.com/username/repo/blob/branch/docs/more_words.md)
