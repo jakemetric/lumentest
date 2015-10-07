@@ -8,6 +8,6 @@ class ApiTest extends BaseController
 {
     public function index ()
     {
-        echo 'testing';
+        
     }
 }

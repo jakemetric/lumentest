@@ -12,6 +12,8 @@
 */
 
 $app->get('/', function () use ($app) {
+//    return env('APP_KEY');
+//    exit;
     return $app->welcome();
 });
 
