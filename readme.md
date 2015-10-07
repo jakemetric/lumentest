@@ -22,5 +22,12 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 ## Installing Additional Library
 
-> install jessengers (if not installed)
-> [jessengers git](https://github.com/username/repo/blob/branch/docs/more_words.md)
+install jessengers (if not installed)
+
+[![jessengers](http://img.shields.io/travis/jenssegers/laravel-mongodb.svg)](https://github.com/jenssegers/laravel-mongodb)
+
+#### Installation
+
+```
+composer require jenssegers/mongodb
+```
