@@ -14,3 +14,9 @@
 $app->get('/', function () use ($app) {
     return $app->welcome();
 });
+
+$app->group(['middleware' => 'bot', 'namespace' => 'App\Http\Controllers'], function($app) {
+    $app->get('testapi', 'ApiTest@index');
+});
+
+//$app->get('testapi', 'ApiTest@index');
